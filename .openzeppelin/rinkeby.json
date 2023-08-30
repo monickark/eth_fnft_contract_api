@@ -1,0 +1,227 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xD2209D86E523aC172d7C9425aD7353780Ba2Af9E",
+    "txHash": "0xfce4024d12cc16a9480de095b5b3090797a1e1a083627244f789d5b45662f5a2"
+  },
+  "proxies": [
+    {
+      "address": "0x6CEcEC80dc2098E93877cBFb6164604d121c7842",
+      "txHash": "0xaaac3c979cd7abc557f92e58cbf1121e6a9e1c2aa6c8b71d726e023a4ed1bf35",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "0e74a094de70952a7fe150d5a2b9e39f27379c102525d5972a2b68d63f966ad3": {
+      "address": "0x6f1C657D0FBFb3Fb83b75cAb7c630E19525335d8",
+      "txHash": "0x8d9b6a19360f59a5b0dd9f22c1f2ba949e1d38b3bb6c70d6cd4cc441183960c4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:26"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:30"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\introspection\\ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:24"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:27"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_owners",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:30"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:33"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_tokenApprovals",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:36"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "_operatorApprovals",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC721Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC721\\ERC721Upgradeable.sol:418"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "_baseTokenURI",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:23"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "superAdmin",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:24"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "gaxAdmin",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:25"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "artbitAddr",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:26"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "whiteList_count",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:28"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "dexList_count",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:29"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "totalCommission",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:30"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "totalRoyalty",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:31"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "erc20decimals",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:32"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "nftAssets",
+            "type": "t_mapping(t_uint256,t_struct(NFT_Asset)2716_storage)",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:34"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "_tokenURIs",
+            "type": "t_mapping(t_uint256,t_string_storage)",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:35"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "whiteList_addresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:36"
+          },
+          {
+            "contract": "GAX_FNFT",
+            "label": "dex_addresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\GAX_FNFT.sol:37"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(NFT_Asset)2716_storage)": {
+            "label": "mapping(uint256 => struct GAX_FNFT.NFT_Asset)"
+          },
+          "t_struct(NFT_Asset)2716_storage": {
+            "label": "struct GAX_FNFT.NFT_Asset",
+            "members": [
+              {
+                "label": "nftAssetId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftAsset_owner",
+                "type": "t_address"
+              },
+              {
+                "label": "erc20_addr",
+                "type": "t_address"
+              },
+              {
+                "label": "artist",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_string_storage)": {
+            "label": "mapping(uint256 => string)"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}

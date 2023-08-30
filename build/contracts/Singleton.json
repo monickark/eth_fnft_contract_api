@@ -1,0 +1,173 @@
+{
+  "contractName": "Singleton",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/proxy/Singleton.sol\":\"Singleton\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/proxy/Singleton.sol\":{\"keccak256\":\"0xf50b0df0cea63e8a4c82c6ea01d7c64b06467ab34fd05575d6ccd93b08fda2f7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bee08d12cd6c6dc6826d4a3e203e9340978e89ad7ebc7e93167dc7203cb17f70\",\"dweb:/ipfs/QmVJyR8VXN8b5yzD1AiBGVqhDVeq7Xn9EDBBBzgoyuEGWK\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208d72844599278261326a6dbc8a320107a1705d2a8dedb9977d78dd1fbba94ded64736f6c63430008060033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208d72844599278261326a6dbc8a320107a1705d2a8dedb9977d78dd1fbba94ded64736f6c63430008060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "59:56:17:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "59:56:17:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.6;\r\n\r\ncontract Singleton {\r\n    address internal singleton;\r\n}\r\n",
+  "sourcePath": "C:\\ACCUBITS\\PROJECT\\GAE\\workouts\\gae-blockchain\\contracts\\proxy\\Singleton.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/proxy/Singleton.sol",
+    "exportedSymbols": {
+      "Singleton": [
+        3534
+      ]
+    },
+    "id": 3535,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3531,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:22:17"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3534,
+        "linearizedBaseContracts": [
+          3534
+        ],
+        "name": "Singleton",
+        "nameLocation": "68:9:17",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3533,
+            "mutability": "mutable",
+            "name": "singleton",
+            "nameLocation": "102:9:17",
+            "nodeType": "VariableDeclaration",
+            "scope": 3534,
+            "src": "85:26:17",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 3532,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "85:7:17",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 3535,
+        "src": "59:56:17",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:84:17"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/proxy/Singleton.sol",
+    "exportedSymbols": {
+      "Singleton": [
+        3534
+      ]
+    },
+    "id": 3535,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3531,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:22:17"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3534,
+        "linearizedBaseContracts": [
+          3534
+        ],
+        "name": "Singleton",
+        "nameLocation": "68:9:17",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3533,
+            "mutability": "mutable",
+            "name": "singleton",
+            "nameLocation": "102:9:17",
+            "nodeType": "VariableDeclaration",
+            "scope": 3534,
+            "src": "85:26:17",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 3532,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "85:7:17",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 3535,
+        "src": "59:56:17",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:84:17"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.6+commit.11564f7e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2022-08-19T10:02:32.168Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

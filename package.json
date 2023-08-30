@@ -1,0 +1,26 @@
+{
+  "name": "9.eth-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^9.4.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/truffle-upgrades": "^1.14.0",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.0.17",
+    "koa": "^2.13.0",
+    "mongoose": "^5.10.9",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}

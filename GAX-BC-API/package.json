@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "app-root-path": "^3.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "defender-admin-client": "^1.16.0",
+    "defender-autotask-client": "^1.17.0",
+    "defender-relay-client": "^1.16.0",
+    "defender-sentinel-client": "^1.17.0",
+    "del": "^6.0.0",
+    "download-file": "^0.1.5",
+    "express": "^4.17.1",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.1"
+  }
+}

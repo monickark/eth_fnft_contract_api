@@ -1,0 +1,24 @@
+## GAX PLATFORM
+
+## Prod Setup
+
+- Clone repo
+- Rename file `.env.sample` into `.env`
+- Fill the missing values in the `.env`
+
+-  **TO START** run `npm start`
+
+## packages used
+- express: framework
+- compression: to compress all response to make app faster
+- hemlet: secure your Express apps by setting various HTTP headers
+- morgan: logging http request
+- app-root-path: helps you access your application's root path
+- winston: logger for just about everything.
+- winston-daily-rotate-file: create a new file daily
+- @pinata/sdk: SDK for the Pinata IPFS platform
+- download-file: Generic file download utility
+- defender-admin-client: create contract in defender
+- defender-autotask-client: create autotask in defender
+- defender-sentinel-client: create sentinel in defender
+- defender-relay-client: to sign txion through relay account

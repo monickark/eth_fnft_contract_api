@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\ACCUBITS\\PROJECT\\GAX\\GAX_CODE\\gax-blockchain\\GAX-BC-API\\logs\\.2a86701a2f7a39e739e16a1f9c2b374d4cfdec87-audit.json",
+    "files": [
+        {
+            "date": 1674132740383,
+            "name": "C:\\ACCUBITS\\PROJECT\\GAX\\GAX_CODE\\gax-blockchain\\GAX-BC-API\\logs\\app-2023-01-19.log",
+            "hash": "332a15367019ccb845a11ed9b0464ea0bcbac0dff652b6d4eb527056f5c36180"
+        }
+    ],
+    "hashType": "sha256"
+}
